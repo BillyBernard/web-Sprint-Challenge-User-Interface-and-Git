@@ -325,14 +325,32 @@ h2,p {
 }
 
 .strategy {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 1%;
+    /* border-bottom: 1px dashed black; */
     padding-bottom: 3%;
 }
 
-.howWeWork {
-    margin-bottom: 20px;
+.borderOne {
+    margin-top: 5%;
+}
+
+.borderBottomOne {
+    width: 94%;
     border-bottom: 1px dashed black;
+}
+
+.borderTwo {
+    margin-top: 5%;
+}
+
+.borderBottomTwo {
+    width: 94%;
+    border-bottom: 1px dashed black;
+}
+
+.howWeWork {
+    margin-bottom: 1%;
+    /* border-bottom: 1px dashed black; */
     padding-bottom: 3%;
 } 
 
@@ -344,15 +362,15 @@ h2,p {
 }
 
 .places {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 1%;
+    /* border-bottom: 1px dashed black; */
     padding-top: 5%;
     padding-bottom: 3%;
 }
 
 .collaboration {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 1%;
+    /* border-bottom: 1px dashed black; */
     padding-top: 5%;
     padding-bottom: 3%;
 }
