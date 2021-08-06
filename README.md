@@ -34,23 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+-Semantic HTML is the use of semantic HTML elements to give meaning to a page. Search engines will know the keyworkds, screen readers will be able to acuaratley navigate the page, and search through the code to find specific portions is much easier.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+-display: block; starts of a new line and takes up the full widtha available. display: inline; does not start on a new line and only takes up as much width as its content. Width and height will can no effects. 
 
 3. What are the 4 areas of the box model?
 
+-Content, Padding, Border, Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+-Along the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+- git is valuable to a team of developers because it allows for changes to be seen with a pull request so the whole team may see what has been worked on and changed. git is also used to store the code being worked on. If something bad happens, previous code can be referenced or loaded to go back before there were problems. git also allows for easy collaboration for a team as they can work on local versions of code that then gets stored in the repository. That code can then be downloaded by others and worked on.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
