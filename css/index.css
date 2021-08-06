@@ -288,3 +288,40 @@ footer nav a {
 .dotted {
     border-bottom: 2px dotted black;
 }
+
+.first {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 2%;
+}
+
+h2,p {
+    margin-left:-2%;
+} 
+
+.howWeWork {
+    
+} 
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.places {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.collaboration {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.together {
+}
