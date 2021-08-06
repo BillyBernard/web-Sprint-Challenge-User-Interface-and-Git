@@ -76,6 +76,17 @@ nav {
     padding: 2%;
 }
 
+button {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    padding: 3%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
 .logo {
     width: 5%;
     padding-left: 23.5%;
@@ -106,6 +117,10 @@ a {
     margin: 0 auto;
 }
 
+.text-container p {
+    margin-left: -4%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -128,6 +143,7 @@ a {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    margin-left:.1%;
 }
 
 .middle-content .boxes {
@@ -280,13 +296,24 @@ footer nav a {
     text-decoration: none;
 }
 
+h2,p {
+    margin-top: 3%;
+    margin-left:-2%;
+} 
+
+.about {
+    margin-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+
 .about-page h2,p {
     padding-left: 2%;
     padding-right: 2%;
 }
 
-.dotted {
-    border-bottom: 2px dotted black;
+.test {
+    margin-left: .1%;
+    margin-bottom: 3%;
 }
 
 .first {
@@ -294,14 +321,19 @@ footer nav a {
     justify-content: space-evenly;
     align-items: center;
     padding-left: 2%;
+    padding-top: 2%;
 }
 
-h2,p {
-    margin-left:-2%;
-} 
+.strategy {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+}
 
 .howWeWork {
-    
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
 } 
 
 .second {
@@ -312,16 +344,19 @@ h2,p {
 }
 
 .places {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .collaboration {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .together {
+    padding-bottom: 2%;
 }
