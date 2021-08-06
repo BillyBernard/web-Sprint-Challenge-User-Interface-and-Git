@@ -348,6 +348,24 @@ h2,p {
     border-bottom: 1px dashed black;
 }
 
+.borderThree {
+    margin-top: 5%;
+}
+
+.borderBottomThree {
+    width: 94%;
+    border-bottom: 1px dashed black;
+}
+
+.borderFour {
+    margin-top: 5%;
+}
+
+.borderBottomFour {
+    width: 94%;
+    border-bottom: 1px dashed black;
+}
+
 .howWeWork {
     margin-bottom: 1%;
     /* border-bottom: 1px dashed black; */
