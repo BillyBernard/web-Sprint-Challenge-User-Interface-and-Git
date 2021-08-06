@@ -326,7 +326,6 @@ h2,p {
 
 .strategy {
     margin-bottom: 1%;
-    /* border-bottom: 1px dashed black; */
     padding-bottom: 3%;
 }
 
@@ -368,7 +367,6 @@ h2,p {
 
 .howWeWork {
     margin-bottom: 1%;
-    /* border-bottom: 1px dashed black; */
     padding-bottom: 3%;
 } 
 
@@ -381,14 +379,12 @@ h2,p {
 
 .places {
     margin-bottom: 1%;
-    /* border-bottom: 1px dashed black; */
     padding-top: 5%;
     padding-bottom: 3%;
 }
 
 .collaboration {
     margin-bottom: 1%;
-    /* border-bottom: 1px dashed black; */
     padding-top: 5%;
     padding-bottom: 3%;
 }
