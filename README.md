@@ -38,7 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
--display: block; starts of a new line and takes up the full widtha available. display: inline; does not start on a new line and only takes up as much width as its content. Width and height will can no effects. 
+-display: block; starts of a new line and takes up the full width available. display: inline; does not start on a new line and only takes up as much width as its content. Width and height will can no effects. 
 
 3. What are the 4 areas of the box model?
 
@@ -64,7 +64,7 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
