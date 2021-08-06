@@ -66,6 +66,31 @@ p {
     line-height: 1.4;
 }
 
+/* header */
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    top: 0;
+    width: 100%;
+    padding: 1%;
+}
+
+.logo {
+    width: 5%;
+    padding-left: 25%;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 12%;
+}
+
+/* image */
+
 .container {
     width: 800px;
     margin: 0 auto;
