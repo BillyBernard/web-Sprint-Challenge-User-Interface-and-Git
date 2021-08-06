@@ -149,6 +149,106 @@ a {
     justify-content: center;
 }
 
+.boxOne {
+    width: 100%;
+    height: 100px;
+    background: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxTwo {
+    width: 100%;
+    height: 100px;
+    background: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxThree {
+    width: 100%;
+    height: 100px;
+    background: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxFour {
+    width: 100%;
+    height: 100px;
+    background: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxFive {
+    width: 100%;
+    height: 100px;
+    background: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxSix {
+    width: 100%;
+    height: 100px;
+    background: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxSeven {
+    width: 100%;
+    height: 100px;
+    background: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxEight {
+    width: 100%;
+    height: 100px;
+    background: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxNine {
+    width: 100%;
+    height: 100px;
+    background: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxTen {
+    width: 100%;
+    height: 100px;
+    background: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
