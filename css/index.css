@@ -73,12 +73,13 @@ nav {
     justify-content: flex-start;
     top: 0;
     width: 100%;
-    padding: 1%;
+    padding: 2%;
 }
 
 .logo {
     width: 5%;
     padding-left: 25%;
+    padding-bottom: 1%;
 }
 
 .links {
@@ -89,7 +90,18 @@ nav {
     padding-left: 12%;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 /* image */
+
+.highway {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5%;
+}
 
 .container {
     width: 800px;
