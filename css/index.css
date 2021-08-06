@@ -51,9 +51,12 @@ table {
     box-sizing: border-box;
 }
 
+/* general styles */
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,13 +65,71 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+h2,p {
+    margin-top: 3%;
+    margin-left:-2%;
+} 
+
 p {
     line-height: 1.4;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    top: 0;
+    width: 100%;
+    padding: 2%;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    padding: 3%;
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.logo {
+    width: 5%;
+    padding-left: 23.5%;
+    padding-bottom: 1%;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 12%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* top home content */
+
+.highway {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5%;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.text-container p {
+    margin-left: -4%;
 }
 
 .top-content {
@@ -85,6 +146,8 @@ p {
     padding-bottom: 20px;  
 }
 
+/* middle home content */
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -93,6 +156,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    margin-left:.1%;
 }
 
 .middle-content .boxes {
@@ -112,6 +176,108 @@ p {
     justify-content: center;
 }
 
+.boxOne {
+    width: 100%;
+    height: 100px;
+    background: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxTwo {
+    width: 100%;
+    height: 100px;
+    background: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxThree {
+    width: 100%;
+    height: 100px;
+    background: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxFour {
+    width: 100%;
+    height: 100px;
+    background: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxFive {
+    width: 100%;
+    height: 100px;
+    background: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxSix {
+    width: 100%;
+    height: 100px;
+    background: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxSeven {
+    width: 100%;
+    height: 100px;
+    background: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxEight {
+    width: 100%;
+    height: 100px;
+    background: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxNine {
+    width: 100%;
+    height: 100px;
+    background: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxTen {
+    width: 100%;
+    height: 100px;
+    background: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* bottom home content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +291,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* footer */
 
 footer {
     width: 100%;
@@ -143,4 +311,102 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about top */
+
+.about {
+    margin-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-page h2,p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.test {
+    margin-left: .1%;
+    margin-bottom: 3%;
+}
+
+/* about middle */
+
+.first {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.strategy {
+    margin-bottom: 1%;
+    padding-bottom: 3%;
+}
+
+.borderOne {
+    margin-top: 5%;
+}
+
+.borderBottomOne {
+    width: 94%;
+    border-bottom: 1px dashed black;
+}
+
+.howWeWork {
+    margin-bottom: 1%;
+    padding-bottom: 3%;
+} 
+
+.borderTwo {
+    margin-top: 5%;
+}
+
+.borderBottomTwo {
+    width: 94%;
+    border-bottom: 1px dashed black;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.places {
+    margin-bottom: 1%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.borderThree {
+    margin-top: 5%;
+}
+
+.borderBottomThree {
+    width: 94%;
+    border-bottom: 1px dashed black;
+}
+
+.collaboration {
+    margin-bottom: 1%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.borderFour {
+    margin-top: 5%;
+}
+
+.borderBottomFour {
+    width: 94%;
+    border-bottom: 1px dashed black;
+}
+
+/* about bottom */
+
+.together {
+    padding-bottom: 2%;
 }
